@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="96.896">
+    <testcase classname="Create, See List, Edit, and Delete Gist" name="Create Gist" time="21.8">
+        <system-out><![CDATA[Given User is on gist homepage..............................................passed
+When User navigate to sign in page..........................................passed
+And User fill arbiminanda and P3rs!bjaya10..................................passed
+And User click sign in button...............................................passed
+Then User logged in to gist.................................................passed
+When User click create new gist button......................................passed
+And User fill new gist name.................................................passed
+And User fill gist content..................................................passed
+And User choose to create public gist.......................................passed
+And User click create public gist button....................................passed
+Then User see that gist has been created....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create, See List, Edit, and Delete Gist" name="See List Gist" time="20.599">
+        <system-out><![CDATA[Given User is on gist homepage..............................................passed
+When User navigate to sign in page..........................................passed
+And User fill arbiminanda and P3rs!bjaya10..................................passed
+And User click sign in button...............................................passed
+Then User logged in to gist.................................................passed
+When User click on profile menu.............................................passed
+And User click your gists...................................................passed
+Then User see the list of gists.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create, See List, Edit, and Delete Gist" name="Edit Gist" time="29.633">
+        <system-out><![CDATA[Given User is on gist homepage..............................................passed
+When User navigate to sign in page..........................................passed
+And User fill arbiminanda and P3rs!bjaya10..................................passed
+And User click sign in button...............................................passed
+Then User logged in to gist.................................................passed
+When User click on profile menu.............................................passed
+And User click your gists...................................................passed
+Then User see the list of gists.............................................passed
+When User click on spesific gist............................................passed
+And User click on edit gist.................................................passed
+And User edit gist content..................................................passed
+And User click update gist button...........................................passed
+Then User see gist edited...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Create, See List, Edit, and Delete Gist" name="Delete Gist" time="24.285">
+        <system-out><![CDATA[Given User is on gist homepage..............................................passed
+When User navigate to sign in page..........................................passed
+And User fill arbiminanda and P3rs!bjaya10..................................passed
+And User click sign in button...............................................passed
+Then User logged in to gist.................................................passed
+When User click on profile menu.............................................passed
+And User click your gists...................................................passed
+Then User see the list of gists.............................................passed
+When User click on spesific gist............................................passed
+And User click on delete gist...............................................passed
+And User confirm delete alert...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

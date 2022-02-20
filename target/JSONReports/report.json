@@ -1,0 +1,613 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-20T02:12:07.673Z",
+        "line": 18,
+        "name": "Create Gist",
+        "description": "",
+        "id": "create--see-list--edit--and-delete-gist;create-gist;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11396781700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on gist homepage",
+            "match": {
+              "location": "StepDefinitions.GistGithub.user_is_on_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1835659100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to sign in page",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_navigate_to_sign_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253108000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill arbiminanda and P3rs!bjaya10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbiminanda",
+                  "offset": 10
+                },
+                {
+                  "val": "P3rs!bjaya10",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.GistGithub.User_fill_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3349514200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click sign in button",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77010400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User logged in to gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_logged_in_to_gist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1229574000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click create new gist button",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_create_new_gist_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 728201600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User fill new gist name",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_fill_new_gist_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256844200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User fill gist content",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_fill_gist_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242852900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User choose to create public gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_choose_to_create_public_gist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2074377500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click create public gist button",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_create_public_gist_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100227200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User see that gist has been created",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_see_that_gist_has_been_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-20T02:12:29.501Z",
+        "line": 32,
+        "name": "See List Gist",
+        "description": "",
+        "id": "create--see-list--edit--and-delete-gist;see-list-gist;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10214824700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on gist homepage",
+            "match": {
+              "location": "StepDefinitions.GistGithub.user_is_on_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2482018800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User navigate to sign in page",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_navigate_to_sign_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 286761800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User fill arbiminanda and P3rs!bjaya10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbiminanda",
+                  "offset": 10
+                },
+                {
+                  "val": "P3rs!bjaya10",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.GistGithub.User_fill_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5466977500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click sign in button",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69954400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User logged in to gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_logged_in_to_gist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110931200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on profile menu",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_on_profile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1808692300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click your gists",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_your_gists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143911400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User see the list of gists",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_see_the_list_of_gists()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-20T02:12:50.114Z",
+        "line": 51,
+        "name": "Edit Gist",
+        "description": "",
+        "id": "create--see-list--edit--and-delete-gist;edit-gist;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14732622400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User is on gist homepage",
+            "match": {
+              "location": "StepDefinitions.GistGithub.user_is_on_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3210863200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User navigate to sign in page",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_navigate_to_sign_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292269900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User fill arbiminanda and P3rs!bjaya10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbiminanda",
+                  "offset": 10
+                },
+                {
+                  "val": "P3rs!bjaya10",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.GistGithub.User_fill_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4304477900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click sign in button",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70958500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User logged in to gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_logged_in_to_gist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 115930500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User click on profile menu",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_on_profile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1521669700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User click your gists",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_your_gists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250277200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User see the list of gists",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_see_the_list_of_gists()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1352432600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User click on spesific gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_on_spesific_gist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1992520000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User click on edit gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_on_edit_gist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214861200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User edit gist content",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_edit_gist_content()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1499274500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User click update gist button",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_update_gist_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60962200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User see gist edited",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_see_gist_edited()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-20T02:13:19.763Z",
+        "line": 68,
+        "name": "Delete Gist",
+        "description": "",
+        "id": "create--see-list--edit--and-delete-gist;delete-gist;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12360375300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User is on gist homepage",
+            "match": {
+              "location": "StepDefinitions.GistGithub.user_is_on_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2543827300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User navigate to sign in page",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_navigate_to_sign_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 390759800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User fill arbiminanda and P3rs!bjaya10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arbiminanda",
+                  "offset": 10
+                },
+                {
+                  "val": "P3rs!bjaya10",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinitions.GistGithub.User_fill_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5418450400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User click sign in button",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69955600,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User logged in to gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_logged_in_to_gist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179970200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User click on profile menu",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_on_profile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1506096800,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click your gists",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_your_gists()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57963000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User see the list of gists",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_see_the_list_of_gists()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1110019100,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "User click on spesific gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_on_spesific_gist()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 617105900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User click on delete gist",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_click_on_delete_gist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19987900,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User confirm delete alert",
+            "match": {
+              "location": "StepDefinitions.GistGithub.User_confirm_delete_alert()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Create, See List, Edit, and Delete Gist",
+    "description": "",
+    "id": "create--see-list--edit--and-delete-gist",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/GistGithub.feature",
+    "tags": []
+  }
+]
