@@ -1,6 +1,6 @@
 # Selenium Cucumber BDD
 
-Tools Used: Java, Selenium, Cucumber, Gherkin, JUnit
+Tools Used: Maven, Java, Selenium, Cucumber, Gherkin, JUnit, Extent Report
 
 # Setting up and running tests
 
@@ -18,3 +18,7 @@ Tools Used: Java, Selenium, Cucumber, Gherkin, JUnit
 {YourProjectPath}src/test/java/TestRunner
 ```
 * You can replace the username and password in GistGithub.feature file with your github account
+* After run this automation test, yout can see generated report file (json, xml, html) on:
+```
+{YourProjectPath}/target
+```
